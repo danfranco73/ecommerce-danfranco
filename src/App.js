@@ -1,10 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import NavBar from './Components/NavBar';
+import ItemListContainer from "./Components/ItemListContainer/ItemListContainer";
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <NavBar  />
+        <ItemListContainer greeting={'Bienvenidos a TP Mayorista'}/>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
